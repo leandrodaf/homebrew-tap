@@ -1,9 +1,9 @@
 cask "3d-new-era-ai" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "1.9.2"
-  sha256 arm:   "ae703d335bd50f4cd61d5b12864cedb78c7188508c06a63df463e464c865dbe8",
-         intel: "104f020ff02648f781853d602264befaea96265a4c614a7d597740bd5a0a82d1"
+  version "1.10.0"
+  sha256 arm:   "82efdc56264fb95f89c0323656f3a28a7e44b9f1fb682fd57087a23bcdacd6bb",
+         intel: "36bfceb1f86ea3d13aa2ee1ea9a90d885d7f3121bd2ffa7e8fbaaadb4cc986fc"
 
   url "https://github.com/leandrodaf/3d-new-era-ai/releases/download/v#{version}/newera-macos-#{arch}.zip"
   name "3D New Era AI"
